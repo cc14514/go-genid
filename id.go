@@ -51,7 +51,7 @@ func init() {
 		// seed = append(head , random)
 		seed = append(head, random...)
 		last = new(big.Int).SetBytes(append(head, seed...)).Bytes()
-		log.Println("genid-inited", len(last), last)
+		//log.Println("genid-inited", len(last), last)
 	})
 }
 
