@@ -25,7 +25,6 @@ import (
 	"crypto/rand"
 	"crypto/sha1"
 	"encoding/hex"
-	"log"
 	"math/big"
 	"sync"
 	"time"
